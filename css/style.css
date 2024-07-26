@@ -1,0 +1,570 @@
+:root {
+    --bg-color: #fcfcfc;
+    --bottom-margin: 0.5rem;
+  }
+
+
+/* Hero section */
+.fitri{
+    margin-top: 70px;
+}
+
+/* Hero section button*/
+#project {
+
+    width: 160px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    border-bottom: 300px;
+    height: 20vh;
+}
+
+.section_text_p1{
+    font-weight: 500;
+    font-size: 1.10rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: gray;
+}
+
+/* Working Experience section */
+#working-experience{
+    margin-top: 150px;
+}
+
+
+h2 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 53px;
+    color: black;
+}
+
+.work2{
+    margin-top: 100px;
+}
+
+.experience{
+    padding-top: 50px;
+}
+
+.description{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+li{
+    font-size: 18px;
+}
+
+/* Pstp sub-section */
+.pstp{
+    height: 300px;
+    width: 350px;
+}
+
+/* Vishtech sub-section */
+.vish{
+    height:260px;
+    width:250px;
+}
+
+/* Skill section */
+.skillSection{
+    margin-top: 100px;
+}
+
+.skillTitle{
+    margin-top: 40px;
+}
+
+.skills{
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+.skills-wrapper img{
+    padding: 1.25rem;
+}
+
+.icon{
+    width: 12.875rem;
+    height: 12.25rem;
+}
+
+.icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Project section */
+.album{
+    margin-bottom: 125px;
+}
+
+  @media (min-width: 1401px){
+    .vishtech{
+        padding-left: 132px;
+    }
+    .vishtech-logo{
+        padding-top: 80px;
+    }
+    .address{
+        padding-left: 70px;
+    }
+    .information{
+        padding-right: 150px;
+    }
+  }
+
+  @media (min-width: 1200px) and (max-width: 1400px){
+    .vishtech{
+        padding-left: 117px;
+    }
+    .vishtech-logo{
+        padding-top: 80px;
+    }
+    
+  }
+
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+
+    .vishtech{
+        padding-left: 77px;
+    }
+    
+    .vishtech-logo{
+        padding-top: 82px;
+    }
+    .icon{
+        width: 11.5rem;
+        height: 11rem;
+    }
+
+    .card{
+        width: 55%;
+        margin: auto;
+    }
+
+  }
+
+  @media (min-width: 992px) {
+    .workExperience{
+        margin-bottom: 50px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .workExperience{
+        margin-bottom: 40px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+
+    #workheading1 {
+        padding-left: 50px;
+    }
+    #workheading2 {
+        padding-left: 50px;
+    }
+    .pstp{
+        margin-right: 100px;
+    }
+    .vish{
+        margin-right: 100px;
+    }
+    
+    .icon{
+        width: 10rem;
+        height: 9.5rem;
+    }
+
+    .card{
+        width: 70%;
+        margin: auto;
+    }
+    
+  }
+
+
+
+  @media (min-width: 576px) and (max-width: 992px) {
+    .pstp{
+        height: 300px;
+        width: 315px;
+        padding-top: 20px;
+    }
+
+    .vish{
+        padding-top: 30px;
+    }
+  }
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    
+    .icon{
+        width: 8.7rem;
+        height: 8rem;
+    }
+    
+    .icon-card {
+        margin: 7px;
+    }
+
+  }
+
+
+  @media (max-width: 767px) {
+    .card{
+        width: 90%;
+        margin: auto;
+    }
+  
+  }
+
+  @media (max-width: 576px) {
+    h2 {
+        font-size: 42px;
+    }
+
+    li{
+        font-size: 16px;
+    }
+
+    .pstp{
+        height: 250px;
+        width: 275px;
+        padding-top: 20px;
+    }
+
+    .vish{
+        height:230px;
+        width:230px;
+        padding-top: 30px;
+    }
+
+    .icon{
+        width: 8rem;
+        height: 7.5rem;
+    }
+    
+    .icon-card {
+        box-shadow: 0 3px 7px var(--secondary-shadow);
+        
+    }
+
+    .card{
+        width: 80%;
+        margin: auto;
+       
+    }
+    .address{
+        max-height: 400px;
+    }
+    #my-map-display,.contactForm{
+        padding-left: 20px;
+        padding-right: 20px;    
+    }
+
+  }
+
+  @media (max-width: 500px) {
+    .icon{
+        width: 7.4rem;
+    }
+  }
+
+  @media (max-width: 483px) {
+    .lead{
+        font-size: 19px;
+    }
+    #project{
+        font-size: 19px;
+    }
+  }
+
+  @media (max-width: 472px) {
+     
+    .icon {
+        width: 7rem;
+        height: 7.3rem;
+    }
+    .icon-card {
+        margin: 5px;
+    }
+    #myProject{
+        height: 200px;
+    }
+    .address{
+        max-height: 350px;
+    }
+  }
+
+
+  @media (max-width: 440px) {
+    #fitri{
+        width: 300px;  
+    }
+    .lead{
+        font-size: 18px;
+    }
+    #project{
+        font-size: 18px;
+    }
+    .card-title{
+        font-size: 19px;
+    }
+    .card-text{
+        font-size: 15px;
+    }
+    #projectbtn{
+        font-size: 15px;
+    }
+  }
+
+  @media (max-width: 430px) {
+     
+    .icon {
+        width: 6.5rem;
+        height: 6.8rem;
+    }
+    
+  }
+
+  @media (max-width: 410px) {
+    .lead{
+        font-size: 17px;
+    }
+    .card-title{
+        font-size: 18px;
+    }
+    .card{
+        width: 85%;
+        margin: auto;
+       
+    }
+    #myProject{
+        height: 180px;
+    }
+    .address{
+        max-height: 300px;
+    }
+  }
+
+  @media (max-width: 400px) {
+     
+    .icon {
+        width: 6.2rem;
+        height: 6.5rem;
+    }
+    
+  }
+
+  @media (max-width: 385px) {
+    #fitri{
+        width: 280px;  
+    }
+    .lead{
+        font-size: 16px;
+    }
+    #project{
+        font-size: 17px;
+    }
+    .pstp{
+        height: 220px;
+        width: 260px;
+    }
+
+    .vish{
+        height:210px;
+        width:200px;
+    }
+
+    .icon {
+        width: 5.6rem;
+        height: 6.2rem;
+    }
+    .skills-wrapper img{
+        padding: 0.9rem;
+    }
+  }
+
+  @media (max-width: 370px) {
+    .card{
+        width: 90%;
+        margin: auto;
+       
+    }
+    .card-title{
+        font-size: 17px;
+    }
+    .card-text{
+        font-size: 14px;
+    }
+    #myProject{
+        height: 160px;
+    }
+    
+  }
+
+  @media (max-width: 360px) {
+
+    .lead{
+        font-size: 15px;
+    }
+    li{
+        font-size: 15px;
+    }
+
+    .icon {
+        width: 5.2rem;
+        height: 5.8rem;
+    }
+
+    .address{
+        max-height: 270px;
+    }
+    
+  }
+
+  @media (max-width: 353px) {
+    .card-title{
+        font-size: 16px;
+    }
+    
+  }
+  @media (max-width: 338px) {
+    h2 {
+        font-size: 36px;
+    }
+    #fitri{
+        width: 250px;  
+    }
+    .lead{
+        font-size: 14.5px;
+    }
+    #project{
+        font-size: 16px;
+    }
+    
+    .icon {
+        width: 4.8rem;
+        height: 5.4rem;
+    }
+
+  }
+
+  @media (max-width: 329px) {
+    .lead{
+        font-size: 14px;
+    }
+  }
+
+  @media (max-width: 319px) {
+    .lead{
+        font-size: 13.5px;
+    }
+    .icon {
+        width: 4.4rem;
+        height: 5rem;
+    }
+    .card-title{
+        font-size: 15px;
+    }
+  }
+
+  @media (max-width: 310px) {
+    .pstp{
+        height: 190px;
+        width: 230px;
+    }
+    .vish{
+        height:190px;
+        width:180px;
+    }
+    #fitri{
+        width: 230px;  
+    }
+    .lead{
+        font-size: 12px;
+    }
+    #project{
+        font-size: 14px;
+    }
+  }
+
+  @media (max-width: 303px) {
+    .card-title{
+        font-size: 14px;
+    }
+    .card-text{
+        font-size: 13px;
+    }
+    #myProject{
+        height: 140px;
+    }
+    #projectbtn{
+        font-size: 13px;
+    }
+    .address{
+        max-height: 240px;
+    }
+  }
+
+  @media (max-width: 299px) {
+    .icon {
+        width: 4.0rem;
+        height: 4.6rem;
+    }
+  }
+
+  @media (max-width: 287px) {
+    .card-title{
+        font-size: 13px;
+    }
+    .card-text{
+        font-size: 12.5px;
+    }
+    #myProject{
+        height: 120px;
+    }
+  }
+
+
+
+  @media (max-width: 282px) {
+    .lead{
+        font-size: 10.8px;
+    }
+    .icon {
+        width: 3.5rem;
+        height: 4.1rem;
+    }
+    .address{
+        max-height: 220px;
+    }
+  }
+
+  @media (max-width: 271px) {
+    .card-title{
+        font-size: 12px;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+    #projectbtn{
+        font-size: 13px;
+    }
+  }
