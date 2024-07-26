@@ -34,7 +34,7 @@
 
 /* Working Experience section */
 #working-experience{
-    margin-top: 150px;
+    margin-top: 190px;
 }
 
 
@@ -137,6 +137,12 @@ li{
     
   }
 
+  @media (max-width: 1200px) {
+    .card{
+        width: 55%;
+        margin: auto;
+    }
+  }
 
   @media (min-width: 992px) and (max-width: 1200px) {
 
@@ -152,9 +158,12 @@ li{
         height: 11rem;
     }
 
-    .card{
-        width: 55%;
-        margin: auto;
+  }
+
+  @media (min-width: 992px) and (max-width: 1070px) {
+
+    .introduction{
+        padding-left: 60px;
     }
 
   }
@@ -165,9 +174,20 @@ li{
     }
   }
 
+  @media (max-width: 992px) {
+    #working-experience{
+        margin-top: 130px;
+    }
+  }
+
   @media (max-width: 991px) {
+    
     .workExperience{
         margin-bottom: 40px;
+    }
+    .card{
+        width: 70%;
+        margin: auto;
     }
   }
 
@@ -190,15 +210,8 @@ li{
         width: 10rem;
         height: 9.5rem;
     }
-
-    .card{
-        width: 70%;
-        margin: auto;
-    }
     
   }
-
-
 
   @media (min-width: 576px) and (max-width: 992px) {
     .pstp{
